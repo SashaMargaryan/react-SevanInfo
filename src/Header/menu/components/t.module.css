@@ -1,0 +1,50 @@
+.menu ul  {
+  padding: 5px;
+}
+.uls > li {
+ 
+  
+  margin-top: 20px;
+  
+  width: 300px;
+}
+.uls {
+  /* top: 30px; */
+  position: relative;
+  /* background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%); */
+ 
+  
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+.menu ul ul {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  margin-top: 0px;
+  margin-left: -10px;
+}
+.menu ul a {
+  color: white;
+  /* text-decoration: none; */
+}
+.menu ul ul a {
+  color: white;
+  /* text-decoration: none; */
+  
+}
+.menu li:hover ul {
+  display: block;
+}
+
+/* .menu li:hover li {
+  display: block;
+} */
+.divs {
+  width: 3px;
+  height: 30px;
+  background-color: #fff;
+}
